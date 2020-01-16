@@ -1,3 +1,7 @@
 .image {
     max-height: 10em;
 }
+
+.profile {
+    max-width: 30em !important;
+}

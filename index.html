@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
@@ -15,6 +17,25 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">OsloMet Bachelor 2020 - Gruppe 7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#group">Om gruppen <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#docs">Dokumenter</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
     <div class="container">
         <div class="row p-sm-3">
             <div class="col-6 text-center text-sm-right pr-0 p-sm-2">
@@ -24,15 +45,149 @@
                 <img class="img-fluid image" src="./img/OsloMet_logo.png">
             </div>
         </div>
-        <div class="jumbotron b">
+        <div class="jumbotron">
             <h1 class="display-4 text-center">IoT edge computing in Azure</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            <p>Wall of text</p>
+            <p class="lead">Oppgaven går i hovedsak ut på å sette opp en IoT basert løsning i Microsoft Azure. Løsningen
+                skal bestå av en komplett pipeline hele veien fra sensorer knyttet opp mot en edge node i form av en
+                linux maskin og videre til dataene er lagret og prossessert i cloud. Et viktig design-kriterie for
+                løsningen vil være å benytte så mange "of the shelf" Azure komponenter som mulig. Konfigurering og
+                deployment av løsningen skal automatiseres slik at vi får en effektiv deployment-pipeline. Når løsningen
+                er satt opp skal det gjøres kapasitetsmålinger med hensyn på hvor mye sensordata pr. tid som går gjennom
+                løsningen. Det skal også gjøres en ende-til-ende cybersecurity vurdering av løsningen.</p>
         </div>
-        <div class="row">
-            <div class="col text-center">
-                <p class="display-4">Hellow Orld!</p>
+
+        <h2 id="group" class="text-center p-4">Om gruppen</h2>
+        <div class="row justify-content-center">
+
+            <div class="col-sm-12 col-md-5 col-lg-3 border profile m-xl-0 m-md-2">
+                <!--Start profile-->
+                <img class="img-fluid p-1" src="./img/tmp.png">
+
+                <div class="row">
+                    <div class="col">
+                        <h5>Fredrik Frostad</h5>
+                        <h6>Dataingeniør</h6>
+                        <p>s325853@oslomet.no</p>
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/fredrikfrostad/" target="_blank">
+                            <i class="fab fa-linkedin" style="font-size:30px; color: #0077B5;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Fredrik(35) er dataingeniørstudent ved OsloMet og har tidligere arbeidet som prosjektleder og
+                            lydtekniker hos Bright Norway AS. Fra denne stillingen har Fredrik bred erfaring med
+                            prosjektering og gjennomføring av større prosjekter innen konserter, corporate-events og
+                            TV-produksjon. Fredrik har hatt sommerjobb som backend java utvikler hos Oslo Market
+                            Solutions , og jobber i dag deltid i samme bedrift. Fredrik starter som konsulent hos
+                            Solidsquare AS høsten 2020.</p>
+                    </div>
+                </div>
             </div>
+            <!--End profile-->
+
+            <div class="col-sm-12 col-md-5 col-lg-3 border profile m-xl-0 m-md-2">
+                <!--Start profile-->
+                <img class="img-fluid p-1" src="./img/tmp.png">
+
+                <div class="row">
+                    <div class="col">
+                        <h5>Ole-Martin Heggen</h5>
+                        <h6>Dataingeniør</h6>
+                        <p>s325905@oslomet.no</p>
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/ole-martin-heggen-9a4a26141/" target="_blank">
+                            <i class="fab fa-linkedin" style="font-size:30px; color: #0077B5;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Ole-Martin(25) er dataingeniørstudent ved OsloMet og har tidligere utdanning som befal og
+                            dataelektroniker lærling i cyberforsvaret. Ole-Martin jobber i dag deltid hos Computas på
+                            avdeling for IT og analyse hvor han også har hatt sommerjobb. Stillingen hans innebærer
+                            systemadministrasjon, bruker supportering og Active Directory og Google Cloud Platform
+                            administrator. Han vil starte som konsulent for Sopera Steria høsten 2020. Ole-Martin har
+                            også interesse innenfor CTF og elektronikk.</p>
+                    </div>
+                </div>
+            </div>
+            <!--End profile-->
+
+            <div class="col-sm-12 col-md-5 col-lg-3 border profile m-xl-0 m-md-2">
+                <!--Start profile-->
+                <img class="img-fluid p-1" src="./img/tmp.png">
+
+                <div class="row">
+                    <div class="col">
+                        <h5>Michael Mobæck Thoresen</h5>
+                        <h6>Dataingeniør</h6>
+                        <p>s325903@oslomet.no</p>
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/michael-mob%C3%A6k-thoresen-45526b182/" target="_blank">
+                            <i class="fab fa-linkedin" style="font-size:30px; color: #0077B5;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Michael jobber deltid som sikkerhetsanalytiker hos BDO og liker gaming. Michael har erfaring
+                            med Blue Team sikkerhet igjennom jobben hos BDO og litt erfaring med Red Team igjennom
+                            diverse CTF-konkurranser og aktiviteter som OverTheWire og HackTheBox.</p>
+                    </div>
+                </div>
+            </div>
+            <!--End profile-->
+
+            <div class="col-sm-12 col-md-5 col-lg-3 border profile m-xl-0 m-md-2">
+                <!--Start profile-->
+                <img class="img-fluid p-1" src="./img/tmp.png">
+
+                <div class="row">
+                    <div class="col">
+                        <h5>Jakob Bogen Simonsen</h5>
+                        <h6>Dataingeniør</h6>
+                        <p>sxxxxxx@ooslomet.no</p>
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/jakobbsimonsen/" target="_blank">
+                            <i class="fab fa-linkedin" style="font-size:30px; color: #0077B5;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Jacob jobber som student-utvikler hos IBM og er studass i faget programmering. Han liker
+                            trening og bulkeboller. Denne teksten kommer han til å skrive selv.</p>
+                    </div>
+                </div>
+            </div>
+            <!--End profile-->
+
+        </div>
+
+        <div>
+
         </div>
     </div>
 </body>
