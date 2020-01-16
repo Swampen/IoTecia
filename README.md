@@ -1,9 +1,9 @@
 # IoTecia
 
 <p>
-IoT - Internet of Things
-e - Edge
-c - Computing
-i - in
-a - Azure
+IoT - Internet of Things <br />
+e - Edge <br />
+c - Computing <br />
+i - in <br />
+a - Azure <br />
 </p>
