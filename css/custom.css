@@ -5,3 +5,12 @@
 .profile {
     max-width: 30em !important;
 }
+
+.background{
+    background: white;
+    background-image: url("../img/forsidebilde.jpg");
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)),url("../img/forsidebilde.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
