@@ -41,7 +41,14 @@
   height: 100vh;
   background-position: top;
   background-repeat: no-repeat;
+  background-size: 100%;
   animation: slide-b 1s ease-out;
+}
+
+@media only screen and (max-width: 1306px) {
+  .background {
+    background-size: auto 100vh;
+  }
 }
 
 @keyframes slide-b {
