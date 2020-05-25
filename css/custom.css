@@ -1,16 +1,77 @@
 .image {
-    max-height: 10em;
+  max-height: 10em;
 }
 
 .profile {
-    max-width: 30em !important;
+  max-width: 30em !important;
 }
 
-.background{
-    background: white;
-    background-image: url("../img/forsidebilde.jpg");
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.5)),url("../img/forsidebilde.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#about {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.slide-in-t {
+  animation: slide-t 1s ease-out;
+}
+
+.slide-in-b {
+  animation: slide-b-2 1s ease-out;
+}
+
+.background {
+  background: white;
+  background-image: url("../img/forsidebilde.jpg");
+  background-image: linear-gradient(
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../img/forsidebilde.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: slide-b 1s ease-out;
+}
+
+@keyframes slide-b {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10vh, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-b-2 {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 5vh, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-t {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -1vh, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
