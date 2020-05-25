@@ -37,8 +37,9 @@
       rgba(255, 255, 255, 0.5)
     ),
     url("../img/forsidebilde.jpg");
+    background-attachment: fixed;
   height: 100vh;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   animation: slide-b 1s ease-out;
 }
