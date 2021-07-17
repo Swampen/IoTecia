@@ -1,6 +1,6 @@
 # IoTecia
 
-Webpage:  https://swampen.github.io/IoTecia/ 
+Webpage:  https://bachelor.heggen.tech/
 
 <p>
 IoT - Internet of Things <br />
